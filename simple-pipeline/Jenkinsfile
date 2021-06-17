@@ -22,7 +22,8 @@ pipeline {
                 }
             }
         }
-        stage('stage 2')i{
+        
+	stage('stage 2')i{
 	  steps{
 	    sh 'echo hello from stage 2!'
 	   }
